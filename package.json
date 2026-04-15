@@ -15,9 +15,10 @@
   "license": "ISC",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "lint": "tsc --noEmit"
+    "lint": "npx tsc --noEmit",
+    "type-check": "npx tsc --noEmit"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
